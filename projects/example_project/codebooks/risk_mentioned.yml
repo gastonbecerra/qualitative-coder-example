@@ -1,0 +1,18 @@
+id: risk_mentioned
+version: "0.1.0"
+type: single_label
+question: "¿El texto menciona explícitamente algún riesgo, preocupación o posible efecto negativo de AulaBot?"
+
+labels:
+  - id: "yes"
+    description: "Menciona al menos un riesgo, preocupación o efecto negativo."
+  - id: "no"
+    description: "No menciona riesgos, preocupaciones ni efectos negativos."
+
+examples:
+  - text: "Me preocupa que los estudiantes dependan demasiado de AulaBot."
+    code: "yes"
+    evidence: "Me preocupa"
+  - text: "AulaBot ayuda a preparar actividades más rápido."
+    code: "no"
+    evidence: ""

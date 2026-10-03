@@ -1,0 +1,11 @@
+/.Rproj.user/
+/.Rhistory
+/.RData
+/.Ruserdata
+/.env
+/_targets/
+/_targets.RDS
+/renv/library/
+/renv/staging/
+/projects/*/outputs/runs/*
+!/projects/*/outputs/runs/.gitkeep

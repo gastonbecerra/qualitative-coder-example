@@ -1,0 +1,32 @@
+project:
+  id: example_project
+  name: "Opiniones sobre AulaBot"
+
+corpus:
+  id: aula_bot_sample
+  path: corpora/sample_documents.csv
+  document_id_column: document_id
+  text_column: text
+
+run:
+  id: mock_few_shot_v1
+  provider: mock
+  model: mock-coder-v1
+  prompt_strategy: few_shot
+  temperature: 0
+  max_tokens: 1000
+
+coders:
+  - id: attitude
+    codebook: codebooks/attitude.yml
+    active: true
+  - id: risk_mentioned
+    codebook: codebooks/risk_mentioned.yml
+    active: true
+
+human_coding:
+  path: human_coding/gold_standard.csv
+  required: false
+
+outputs:
+  path: outputs

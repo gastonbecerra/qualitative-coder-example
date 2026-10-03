@@ -1,0 +1,17 @@
+document_id,dimension,gold_code
+doc_001,attitude,positive
+doc_001,risk_mentioned,no
+doc_002,attitude,negative
+doc_002,risk_mentioned,yes
+doc_003,attitude,neutral
+doc_003,risk_mentioned,no
+doc_004,attitude,mixed
+doc_004,risk_mentioned,yes
+doc_005,attitude,negative
+doc_005,risk_mentioned,yes
+doc_006,attitude,positive
+doc_006,risk_mentioned,no
+doc_007,attitude,mixed
+doc_007,risk_mentioned,yes
+doc_008,attitude,neutral
+doc_008,risk_mentioned,no

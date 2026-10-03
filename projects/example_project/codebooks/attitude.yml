@@ -1,0 +1,25 @@
+id: attitude
+version: "0.1.0"
+type: single_label
+question: "¿Cuál es la actitud general del texto hacia AulaBot?"
+
+labels:
+  - id: positive
+    description: "Expresa una evaluación favorable de AulaBot."
+  - id: negative
+    description: "Expresa una evaluación desfavorable de AulaBot."
+  - id: neutral
+    description: "No expresa una evaluación clara."
+  - id: mixed
+    description: "Incluye elementos positivos y negativos."
+
+examples:
+  - text: "AulaBot ahorra tiempo y mejora la preparación de clases."
+    code: positive
+    evidence: "ahorra tiempo y mejora"
+  - text: "AulaBot podría ser útil, pero me preocupa la privacidad."
+    code: mixed
+    evidence: "útil, pero me preocupa"
+  - text: "Prefiero no usar AulaBot para evaluar estudiantes."
+    code: negative
+    evidence: "Prefiero no usar"
